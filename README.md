@@ -109,7 +109,7 @@
   - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
-  - Run: ./scripts/install-prometheus.sh
+  - Run: (scripts) ./install-prometheus.sh
   - Confirm the status shows "Active (running)"
   - Exit
 
@@ -118,7 +118,7 @@
   - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
-  - Run: ./scripts/install-grafana.sh
+  - Run: (scripts) ./install-grafana.sh
   - Confirm the status shows "Active (running)"
   - Exit
 
