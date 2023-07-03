@@ -106,7 +106,7 @@
 ## Configure All Systems
 ### Configure Prometheus
   - Login/SSH to your Prometheus Server
-  - Clone the following repository: https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
+  - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
   - Run: ./scripts/install-prometheus.sh
@@ -115,7 +115,7 @@
 
 ### Configure Grafana
   - Login/SSH to your Grafana Server
-  - Clone the following repository: https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
+  - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
   - Run: ./scripts/install-grafana.sh
