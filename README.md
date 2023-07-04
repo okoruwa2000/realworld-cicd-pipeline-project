@@ -106,7 +106,7 @@
 ## Configure All Systems
 ### Configure Prometheus
   - Login/SSH to your Prometheus Server
-  - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
+  - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/okoruwa2000/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
   - Run: (scripts) ./install-prometheus.sh
@@ -115,7 +115,7 @@
 
 ### Configure Grafana
   - Login/SSH to your Grafana Server
-  - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
+  - Clone the following repository: git clone-bprometheus-and-grafana-install https://github.com/okoruwa2000/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
   - Run: (scripts) ./install-grafana.sh
@@ -126,10 +126,10 @@
   - Login/SSH into the "Dev-Env", "Stage-Env" and "Prod-Env" VM instance
   - Perform the following operations on all of them
   - Install git by running: sudo yum install git -y 
-  - Clone the following repository: https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
+  - Clone the following repository: git clone -b prometheus-and-grafana-install https://github.com/okoruwa2000/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
-  - Run: ./scripts/install-node-exporter.sh
+  - Run: Cscripts) ./install-node-exporter.sh
   - Confirm the status shows "Active (running)"
   - Access the Node Exporters running on port "9100", open your browser and run the below
       - Dev-EnvPublicIPaddress:9100   (Confirm this page is accessible)
@@ -141,10 +141,10 @@
   - Login/SSH into the "Jenkins-Maven-Ansible", "Nexus" and "SonarQube" VM instance
   - Perform the following operations on all of them
   - Install git by running: sudo yum install git -y    (The SonarQube server already has git)
-  - Clone the following repository: https://github.com/avinashmamidi/realworld-cicd-pipeline-project.git
+  - Clone the following repository: git clone -b prometheus-and-grafana-install https://github.com/okoruwa2000/realworld-cicd-pipeline-project.git
   - Change directory to "realworld-cicd-pipeline-project"
   - Run: cd realworld-cicd-pipeline-project
-  - Run: ./scripts/install-node-exporter.sh
+  - Run: (scripts) ./install-node-exporter.sh
   - Make sure the status shows "Active (running)"
   - Access the Node Exporters running on port "9100", open your browser and run the below
       - Jenkins-Maven-AnsiblePublicIPaddress:9100   (Confirm the pages are accessible)
