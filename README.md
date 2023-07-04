@@ -160,9 +160,9 @@
       - Navigate to "- targets: ['localhost:9090']" and add the "IPAddress:9100" for all the above Pipeline instances. Ecample "- targets: ['localhost:9090', 'DevIPAddress:9100', 'StageIPAddress:9100', 'ProdIPAddress:9100', 'Jenkins-Maven-AnsibleIPAddress:9100'] ETC..."
       - Save the Config File and Quit
   - Open a TAB on your choice browser
-  - Copy the Prometheus PublicIP Addres and paste on the browser/tab with port 9090 e.g "PrometheusPublicIPAddres:9100"
+  - Copy the Prometheus PublicIP Addres and paste on the browser/tab with port 9090 e.g "PrometheusPublicIPAddres:9090"
       - Once you get to the Prometheus Dashboard Click on "Status" and Click on "Targets"
-  - Confirm that Prometheus is able to reach everyone of your Nodes, do this by confirming the Status "UP" (green)
+  - Confirm that Prometheus is able to reach everyone of your Nodes, do this by confirming the Status "UP" (green, sudo systemctl restart prometheus)
   - Done
   ![ConfigurePrometheus!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/raw/zdocs/images/prometheus-targets.png)
 
